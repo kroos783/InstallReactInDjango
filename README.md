@@ -12,7 +12,7 @@
 django-admin createproject NameOfProject
 ```
 
-##### ne pas oublier d'entrer dans le dossier du project :
+*** ne pas oublier d'entrer dans le dossier du project : ***
 ```
 cd /NameOfProject
 ```
