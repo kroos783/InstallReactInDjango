@@ -97,7 +97,7 @@ npm install @babel/plugin-proposal-class-properties
 npm install react-router-dom
 ```
 
-#### 1.6 install material ui icons : 
+#### 1.8 install material ui icons : 
 ```
 npm install @material-ui/icons
 ```
