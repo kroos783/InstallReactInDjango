@@ -104,12 +104,12 @@ npm install @material-ui/icons
 
 ## 4. Configure React.js :
 
-#### 4.1 ceate file babel json : 
+#### 4.1 ceate file babel.config.json : 
 ```
 in .\frontend\ => create file babel.config.json
 ```
 
-#### 4.2 ajouter ce script dans le fichier babel json : 
+#### 4.2 ajouter ce script dans le fichier babel.config.json : 
 ```
 {
   "presets": [
