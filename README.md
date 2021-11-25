@@ -7,11 +7,17 @@
 - 📘🔗 Fix Pip (Windows): https://www.youtube.com/watch?v=AdUZA...
 - 📘🔗 Fix Pip (Mac): https://www.youtube.com/watch?v=E-WhA...
 
-### Create django project
+### Create django project :
+```
 django-admin createproject NameOfProject
+```
 
-##### ne pas oublier d'entrer dans le dossier du project 
+##### ne pas oublier d'entrer dans le dossier du project :
+```
 cd /NameOfProject
+```
 
-### Create django API
+### Create django API :
+```
 django-admin createapp NameOfApi
+```
