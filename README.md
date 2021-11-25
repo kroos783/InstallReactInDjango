@@ -64,5 +64,41 @@ cd .\frontend\
 
 #### 1.1 init react : 
 ```
-npm 
+npm init -y 
 ```
+
+#### 1.2 install webpack react : 
+```
+npm i webpack webpack-cli --save-dev
+```
+
+#### 1.3 install babel react : 
+```
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+```
+
+#### 1.4 install react-dom : 
+```
+npm i react react-dom --save-dev
+```
+
+#### 1.5 install material ui react : 
+```
+npm install @material-ui/core
+```
+
+#### 1.6 install plugin babel react : 
+```
+npm install @babel/plugin-proposal-class-properties
+```
+
+#### 1.7 install react router : 
+```
+npm install react-router-dom
+```
+
+#### 1.6 install material ui icons : 
+```
+npm install @material-ui/icons
+```
+
