@@ -54,7 +54,7 @@ django-admin startapp frontend
 - frontend/src
 - frontend/src/components
 
-## 3. React.js :
+## 3. Install packet for React.js :
 
 ***Essayer la commande npm et entrer dans le dossier frontend :***
 ```
@@ -102,3 +102,27 @@ npm install react-router-dom
 npm install @material-ui/icons
 ```
 
+## 4. Configure React.js :
+
+#### 4.1 ceate file babel json : 
+```
+in .\frontend\ => create file babel.config.json
+```
+
+#### 4.2 ajouter ce script dans le fichier babel json : 
+```
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "10"
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
+```
