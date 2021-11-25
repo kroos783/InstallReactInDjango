@@ -38,12 +38,12 @@ Dossier project => urls.py => urlpatterns => path("", include("network.urls")),
 
 ## 2. Create new API Front-end :
 
-#### 1.1 Create new API Front-end :
+#### 2.1 Create new API Front-end :
 ```
 django-admin startapp frontend
 ```
 
-#### 1.2 Create new folders :
+#### 2.2 Create new folders :
 - frontend/templates
 - frontend/templates/frontend
 - frontend/static
@@ -62,42 +62,42 @@ npm
 cd .\frontend\
 ```
 
-#### 1.1 init react : 
+#### 3.1 init react : 
 ```
 npm init -y 
 ```
 
-#### 1.2 install webpack react : 
+#### 3.2 install webpack react : 
 ```
 npm i webpack webpack-cli --save-dev
 ```
 
-#### 1.3 install babel react : 
+#### 3.3 install babel react : 
 ```
 npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 ```
 
-#### 1.4 install react-dom : 
+#### 3.4 install react-dom : 
 ```
 npm i react react-dom --save-dev
 ```
 
-#### 1.5 install material ui react : 
+#### 3.5 install material ui react : 
 ```
 npm install @material-ui/core
 ```
 
-#### 1.6 install plugin babel react : 
+#### 3.6 install plugin babel react : 
 ```
 npm install @babel/plugin-proposal-class-properties
 ```
 
-#### 1.7 install react router : 
+#### 3.7 install react router : 
 ```
 npm install react-router-dom
 ```
 
-#### 1.8 install material ui icons : 
+#### 3.8 install material ui icons : 
 ```
 npm install @material-ui/icons
 ```
