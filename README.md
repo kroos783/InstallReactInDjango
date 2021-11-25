@@ -109,7 +109,7 @@ npm install @material-ui/icons
 in .\frontend\ => create file babel.config.json
 ```
 
-#### 4.2 ajouter ce script dans le fichier babel.config.json : 
+#### 4.1.1 ajouter ce script dans le fichier babel.config.json : 
 ```
 {
   "presets": [
@@ -126,3 +126,45 @@ in .\frontend\ => create file babel.config.json
   "plugins": ["@babel/plugin-proposal-class-properties"]
 }
 ```
+
+#### 4.2 ceate file webpack.config.js : 
+```
+in .\frontend\ => create file webpack.config.js
+```
+
+#### 4.2.1 ajouter ce script dans le fichier webpack.config.js : 
+```
+const path = require("path");
+const webpack = require("webpack");
+
+module.exports = {
+  entry: "./src/index.js",
+  output: {
+    path: path.resolve(__dirname, "./static/frontend"),
+    filename: "[name].js",
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+        },
+      },
+    ],
+  },
+  optimization: {
+    minimize: true,
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      "process.env": {
+        // This has effect on the react lib size
+        NODE_ENV: JSON.stringify("production"),
+      },
+    }),
+  ],
+};
+```
+
