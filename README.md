@@ -85,6 +85,8 @@ npm i react react-dom --save-dev
 #### 3.5 install material ui react : 
 ```
 npm install @material-ui/core
+if problem:
+npm install --save --legacy-peer-deps @material-ui/core
 ```
 
 #### 3.6 install plugin babel react : 
@@ -166,5 +168,13 @@ module.exports = {
     }),
   ],
 };
+```
+
+#### 4.3 modifier le fichier package.json : 
+```
+"scripts": {
+  "dev": "webpack --mode development --watch",
+  "build": "webpack --mode production"
+},
 ```
 
