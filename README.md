@@ -9,6 +9,12 @@
 
 ## 1. Django :
 
+#### 1.0 Virtualenv : 
+```
+py -m venv venv
+venv/Scripts/activate.ps1
+```
+
 #### 1.1 Install Django : 
 ```
 pip install django
