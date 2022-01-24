@@ -38,7 +38,11 @@ django-admin startapp NameOfApi
 
 ***ne pas oublier de parametrer les settings et les urls du project :***
 ```
-Dossier project => settings.py => INSTALLED_APPS => 'NameOfAPI'
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+    'NameOfAPI'
+]
 Dossier project => urls.py => urlpatterns => path("", include("network.urls")),
 ```
 
